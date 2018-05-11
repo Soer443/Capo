@@ -1,0 +1,47 @@
+.container {
+  display: block;
+}
+.info {
+  width: 300px;
+  padding: 20px;
+  display:block;
+}
+.questName {
+  text-decoration: none;
+  color: black;
+}
+img {
+
+  height:250px;
+  width: 250px;
+  padding-top: 50px;
+  padding-right: 20px;
+}
+.page {
+  display: inline-block;
+}
+.containerTwo {
+  background-color: #dbcb86;
+  width:600px;
+  border:solid;
+  position:relative;
+}
+.content {
+  display: inline-flex;
+}
+.aceptedBtn {
+  border-radius: 20px;
+  position: absolute;
+  right: 15%;
+  bottom: 40px;
+  width: 90px;
+  height:  40px;
+  font-family: "Times New Roman";
+  font-size: 15px;
+}
+.reward {
+  font-size: 15px;
+  position: relative;
+  left: 15px;
+  bottom: 15px;
+}

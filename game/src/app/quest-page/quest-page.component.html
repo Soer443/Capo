@@ -1,0 +1,21 @@
+<div  class="page">
+  <div class="container">
+    <div *ngFor="let quest of quests" class="containerTwo">
+      <div class="content">
+        <div class="info">
+        <a href class="questName"><h2>{{quest.name}}</h2></a>
+        <h2>Описание:</h2>
+        <p>{{quest.description}}</p>
+        </div>
+        <div class="icon"><img src="{{quest.img}}"></div>
+      </div>
+      <div class="reward">
+        <span class="reward">
+          <h4>Влияние: {{quest.reward.authority}}</h4>
+          <h4> Хлам: {{quest.reward.loot}}</h4>
+        </span>
+      </div>
+      <button class="aceptedBtn">Accept</button>
+    </div>
+  </div>
+</div>
